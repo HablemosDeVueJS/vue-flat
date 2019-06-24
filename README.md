@@ -20,10 +20,17 @@ npm start
 ```
 npm run build
 ```
+
 ### Run your unit tests
 ```
 npm run test
 ```
+
+### Use Library
+```
+npm install git+https://github.com/HablemosDeVueJS/vue-flat
+```
+`import {FullInput} from 'vue-flat'`
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
