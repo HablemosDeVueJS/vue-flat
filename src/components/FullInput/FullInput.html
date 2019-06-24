@@ -1,0 +1,11 @@
+<section :class="getClassWrapper">
+  <label :class="`full-input-label ${getClassColorText}`" v-text="labelText" />
+  <input
+    :class="getClassInput"
+    :value="inputValue"
+    :type="inputType"
+    @change="onChangeHandler"
+    :disabled="disabled"
+  />
+  <label :class="`full-input-message ${getClassColorText}`" v-text="message"></label>
+</section>
